@@ -5,7 +5,7 @@
 
 .carousel .item {
     color: #000000;
-    min-height: 525px;
+    min-height: 325px;
     text-align: center;
     overflow: hidden;
 }
@@ -50,6 +50,7 @@
 
 .carousel .thumb-content .btn {
     color: #000000;
+    width: 20rem;
     font-size: 11px;
     text-transform: uppercase;
     font-weight: bold;
@@ -114,6 +115,7 @@
 
 .carousel .item-desc {
     font-size: 13px;
+    display: inline-block;
     text-shadow: none;
 }
 
