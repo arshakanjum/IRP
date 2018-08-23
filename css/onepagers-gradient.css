@@ -524,3 +524,10 @@ S11. DEMO STYLES
   -o-transform: rotate(180deg);
   transform: rotate(180deg);
 }
+
+@media only screen and (max-device-width: 600px) {
+  .contact-left {
+    text-align: center;
+    padding-right: 50px;
+  }
+}
