@@ -17,7 +17,7 @@
     border-radius: 6px;
     text-align: center;
     width: 100%;
-    position: relative
+    position: relative;
 }
 
 .carousel .item .img-box {
@@ -171,17 +171,18 @@
 
 @media only screen and (max-device-width: 600px) {
     .carousel .thumb-wrapper {
-        padding: 20px 70px 20px 10px;
+        padding: 20px 20px 20px 10px;
         background: rgba(1, 1, 1, 0.0);
         border-color: #9933ff;
         border-radius: 6px;
         text-align: left;
         width: 100%;
-        position: relative
+        display:inline-block;
+        position: relative;
     }
     .carousel {
-        width:100vw;
-        padding: 0px 0px;
+        margin: 50px auto;
+        padding: 0 70px;
     }
     .carousel .item .img-box {
         float: left;
