@@ -18,6 +18,9 @@
     text-align: center;
     width: 100%;
     position: relative;
+    padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        display: inline-block;
 }
 
 .carousel .item .img-box {
@@ -50,7 +53,7 @@
 
 .carousel .thumb-content .btn {
     color: #000000;
-    width: 20rem;
+    
     font-size: 11px;
     text-transform: uppercase;
     font-weight: bold;
@@ -115,6 +118,9 @@
 
 .carousel .item-desc {
     font-size: 13px;
+    min-height: 7rem;
+    justify-content: center;
+    text-align: center;
     display: inline-block;
     text-shadow: none;
 }
@@ -188,9 +194,11 @@
     }
     .carousel .item .img-box {
         float: left;
-        height: 120px;
+        min-height: 10px;
         margin-bottom: 0px;
         width:20%;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
         
         position: relative;
     }
@@ -209,6 +217,7 @@
         padding: 0px 0px 0px 0px;
         margin: 0px 0px 0px 0px;
         display: inline-block;
+        position: relative;
         font-size: 18px;
     }
     .carousel .item h4,
@@ -219,11 +228,12 @@
     .carousel .thumb-content .btn {
         color: #000000;
         float: right;
+        position: relative;
         font-size: 11px;
         text-transform: uppercase;
         font-weight: bold;
         background: none;
-        display: inline-block;
+        
         border: 2px solid #9933ff;
         line-height: 16px;
         border-radius: 2px;
@@ -265,9 +275,13 @@
         font-weight: bold;
     }
     .carousel .item-price {
-        display: inline-block;
+        
+        position: relative;
         font-size: 13px;
         padding: 2px 0;
+        padding: 10px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        display: inline-block;
     }
     .carousel .item-price strike {
         opacity: 0.7;
@@ -277,9 +291,19 @@
     }
     .carousel .item-desc {
         font-size: 13px;
+        min-height: 0rem;
+        justify-content: left;
+        text-align: left;
+        max-width: 30rem;
+        display: inline-block;
         text-shadow: none;
-        padding: 0px;
-        margin: 0px;
+        color: #232323;
+        position: relative;
+        text-shadow: none;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        display: inline-block;
+        
     }
     .carousel .carousel-control.left i {
         margin-left: -2px;
@@ -304,23 +328,5 @@
     .carousel-indicators li.active {
         background: rgba(0, 0, 0, 0.6);
     }
-    .carousel .wish-icon {
-        position: absolute;
-        right: 10px;
-        top: 10px;
-        z-index: 99;
-        cursor: pointer;
-        font-size: 16px;
-        color: #abb0b8;
-    }
-    .carousel .wish-icon .fa-heart {
-        color: #ff6161;
-    }
-    .star-rating li {
-        padding: 0;
-    }
-    .star-rating i {
-        font-size: 14px;
-        color: #ffc000;
-    }
+    
 }
