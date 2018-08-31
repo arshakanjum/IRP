@@ -177,6 +177,31 @@
     color: #ffc000;
 }
 
+.parallax {
+    background-image: url(../img/BG.jpg);
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax:before {
+    content: "";
+    display: block;
+    -webkit-filter: blur(1px) brightness(0.3);
+    -moz-filter: blur(1px) brightness(0.3);
+    -ms-filter: blur(1px) brightness(0.3);
+    -o-filter: blur(1px) brightness(0.3);
+    filter: blur(1px) brightness(0.3);
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+    background: inherit;
+    z-index: 0;
+  }
+
 @media only screen and (max-device-width: 600px) {
     .carousel .thumb-wrapper {
         padding: 20px 20px 20px 10px;
