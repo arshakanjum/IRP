@@ -292,6 +292,7 @@
     .carousel .item-desc {
         font-size: 13px;
         min-height: 0rem;
+        
         justify-content: left;
         text-align: left;
         max-width: 30rem;

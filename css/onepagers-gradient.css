@@ -527,7 +527,7 @@ S11. DEMO STYLES
 
 @media only screen and (max-device-width: 600px) {
   .contact-left {
-    text-align: center;
+    text-align: left;
     padding-right: 50px;
   }
 }
